@@ -1,4 +1,8 @@
 <?php
+/**
+ * @file
+ * Module file
+ */
 
 /**
  * Implement hook_menu().
