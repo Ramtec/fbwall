@@ -1,5 +1,5 @@
 name = fbwall
-description = Facebook wall Jquery integration
+description = Facebook wall Jquery integrations
 package = facebook plugin
 core = 7.x
 
