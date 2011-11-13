@@ -1,0 +1,18 @@
+<?php
+
+/**
+ * @file
+ * Uninstall variable for the fbwall module
+ */
+
+/**
+ * Implements hook_uninstall().
+ */
+function fbwall_uninstall() {
+  // Delete variables.
+	variable_del('fbwall_fb_id');
+	variable_del('fbwall_nb_item');
+	variable_del('fbwall_show_com');
+	variable_del('fbwall_show_entries');
+	variable_del('fbwall_time_conv');
+}
